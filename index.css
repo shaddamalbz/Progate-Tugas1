@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.container {
+  width: 1120px;
+  margin: auto;
+}
+
+.container .story {
+  width: auto;
+  padding: 60px 15px;
+  display: flex;
+  gap: 3rem;
+  justify-content: space-between;
+  background-color: #f7f8fe;
+  margin: 100px 0;
+}
+
+.container .story > div {
+  width: 50%;
+}
+
+.container .story .story-title {
+  font-size: 38px;
+  font-weight: 800;
+  margin-top: 12px;
+}
+
+.container .story .story-subtitle {
+  font-weight: 800;
+  color: rgba(49, 53, 59, 0.44);
+  margin-top: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2.67px;
+}
+
+.container .story .story-description {
+  color: rgba(49, 53, 59, 0.68);
+  margin-top: 16px;
+}
+
+.container .story .story-image {
+  width: 664px;
+  border-radius: 8px;
+}
+
+.container .story .story-image img {
+  width: 100%;
+}
+
+.btn-primary {
+  padding: 13px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+  text-align: center;
+  background-color: #4b6587;
+  color: #fff;
+}
+
+.btn-outlined {
+  padding: 13px;
+  border-radius: 8px;
+  border: 1px solid #4b6587;
+  font-size: 14px;
+  text-align: center;
+  color: #4b6587;
+  background-color: #fff;
+}
+
+.btn-group {
+  margin-top: 16px;
+}
+
+.divider {
+  width: 100%;
+  height: 2px;
+  background-color: #e5e7e9;
+  margin: 16px auto;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #4b6587;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 100px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  margin-top: 15px;
+}
+
+.header-right li {
+  float: right;
+  transition: all 0.5s;
+}
+
+.header-right li:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right li {
+  line-height: 30px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+.banner {
+  background-color: #4b6587;
+  padding: 150px 0;
+}
+
+.banner img {
+  width: 100px;
+  border-radius: 10px;
+  box-shadow: 0 3px 5px #ddd;
+  margin-bottom: 10px;
+}
+.banner h2,
+.banner p,
+.banner span {
+  color: #fff;
+}
+.banner h2 {
+  margin-bottom: 10px;
+}
+.banner p {
+  font-size: 18px;
+}
+.banner-left {
+  padding-left: 24px;
+}
+
+footer {
+  background-color: #333;
+  padding: 50px;
+  text-align: center;
+}
+footer small {
+  color: #fff;
+}
+
+#contact {
+  background-color: #f9f9f9;
+}
+
+@media screen and (max-width: 1120px) {
+  .container {
+    width: auto;
+    margin: auto;
+  }
+  .container .story {
+    flex-wrap: wrap;
+    margin: 0;
+  }
+
+  .container .story > div {
+    width: 100%;
+  }
+}
